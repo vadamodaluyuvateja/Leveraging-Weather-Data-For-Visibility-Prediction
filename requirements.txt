@@ -5,3 +5,4 @@ requests==2.31.0
 matplotlib
 kneed==0.8.5
 scikit-learn==0.24.2
+streamlit
