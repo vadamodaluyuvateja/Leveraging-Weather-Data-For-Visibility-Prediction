@@ -86,7 +86,7 @@ def create_map(start_coords, end_coords, points, distance_miles, map_file_name="
     return os.path.join("maps", map_file_name)
 
 def main():
-    st.title("Weather Data Generation and Prediction App")
+    #st.title("Weather Data Generation and Prediction App")
 
     # Sidebar for navigation - removed Model Training option
     menu = ["Weather Data Generation", "Prediction", "View Predictions"]
