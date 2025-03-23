@@ -3,7 +3,6 @@ streamlit
 folium
 geopy
 requests
-SQLAlchemy
 numpy
 streamlit
 pandas
