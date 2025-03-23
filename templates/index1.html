@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Data and Prediction</title>
+
+    <!-- CSS Libraries -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet">
+
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        h1 {
+            font-size: 2em;
+            margin: 0;
+        }
+
+        form {
+            margin: 20px auto;
+            width: 80%;
+            max-width: 600px;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        #result {
+            display: none;
+            margin: 20px auto;
+            width: 80%;
+            max-width: 600px;
+        }
+
+        iframe {
+            width: 100%;
+            height: 400px;
+            border: none;
+            margin-top: 20px;
+        }
+
+        .title {
+            color: #273582;
+        }
+
+        .res-container {
+            margin-top: 30px;
+        }
+
+        .result-box {
+            width: 80%;
+            margin: auto;
+            height: 260px;
+            padding: 10px;
+            overflow-y: auto;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            background-color: #fff;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Weather Data and Map Generator</h1>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <form id="weatherForm">
+            <label for="start_location">Start Location:</label>
+            <input type="text" id="start_location" name="start_location" required placeholder="Enter the start location" class="form-control mb-3">
+
+            <label for="end_location">End Location:</label>
+            <input type="text" id="end_location" name="end_location" required placeholder="Enter the end location" class="form-control mb-3">
+
+            <button type="submit" class="btn btn-success btn-block">Generate Data</button>
+        </form>
+
+        <div id="result">
+            <h2>Weather Data Generated</h2>
+            <p id="message"></p>
+            <a id="csvLink" target="_blank" class="btn btn-primary">Download CSV</a>
+            <h3>Weather Map:</h3>
+            <iframe id="mapIframe" style="display:none;"></iframe>
+        </div>
+    </main>
+
+    <!-- Prediction Section -->
+    <section class="testimonials text-center">
+        <div class="container-fluid">
+            <h4 class="my-4 title">Prediction</h4>
+            <div class="row">
+                <div class="col-md-6">
+                    <form method="post" id="datafetch_form" enctype="multipart/form-data">
+                        <div class="form-group">
+                            <input type="text" name="csvfile" id="csvfile" class="form-control" placeholder="Enter absolute file path" required>
+                        </div>
+                        <button class="btn btn-primary btn-block" id="customfile">Custom File Predict</button>
+                        <div class="text-center my-3"><b>Or</b></div>
+                        <button class="btn btn-primary btn-block" id="defaultfile" data-path="Prediction_Batch_files">Default File Predict</button>
+                    </form>
+                </div>
+
+                <div class="col-md-6 res-container">
+                    <div class="result-box shadow rounded-lg">
+                        <h6 class="title">Results</h6>
+                        <div class="json-result"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Weather Map Generator &copy; 2024</p>
+    </footer>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <!-- Custom Scripts -->
+    <script>
+        $(document).ready(function () {
+            // Hide the loading spinner
+            $('#loading').hide();
+
+            // Handle Weather Data Form Submission
+            $('#weatherForm').on('submit', function (event) {
+                event.preventDefault();
+                const startLocation = $('#start_location').val();
+                const endLocation = $('#end_location').val();
+
+                fetch('/generate_weather_data', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                    body: `start_location=${encodeURIComponent(startLocation)}&end_location=${encodeURIComponent(endLocation)}`
+                })
+                    .then(response => response.json())
+                    .then(data => {
+                        if (data.message) {
+                            $('#message').text(data.message);
+                            $('#csvLink').data('filename', data.csv_file); // Save file name dynamically
+                            $('#mapIframe').attr('src', `/maps/${data.map_file}`).show();
+                            $('#result').show();
+                        }
+                    })
+                    .catch(error => console.error('Error:', error));
+            });
+
+            // Handle Custom File Prediction
+            $('#customfile').on('click', function (e) {
+                e.preventDefault();
+                $('#loading').show();
+                const path = $('#csvfile').val();
+
+                $.post('/predict', { filepath: path }, function (response) {
+                    $('.json-result').html(`<p>Prediction File created at: <b>Prediction_Output_File/Predictions.csv</b><br>Preview:</p><pre>${response}</pre>`);
+                    $('#loading').hide();
+
+                    // Fetch the predicted values
+                    fetchPredictions();
+                });
+            });
+
+            // Handle Default File Prediction
+            $('#defaultfile').on('click', function (e) {
+                e.preventDefault();
+                $('#loading').show();
+                const path = $(this).data('path');
+
+                $.post('/predict', { filepath: path }, function (response) {
+                    $('.json-result').html(`<p>Prediction File created.<br>Preview:</p><pre>${response}</pre>`);
+                    $('#loading').hide();
+
+                    // Fetch the predicted values
+                    fetchPredictions();
+                });
+            });
+
+            // Handle CSV Download
+            $('#csvLink').on('click', function (e) {
+                e.preventDefault();
+                const filename = $(this).data('filename');
+
+                if (filename) {
+                    window.location.href = `/Prediction_Batch_files/${filename}`;
+                } else {
+                    alert('File not found. Please generate the weather data first.');
+                }
+            });
+
+            // Function to fetch and display predictions
+            function fetchPredictions() {
+                $.post('/get_predictions', {}, function (data) {
+                    if (data.success) {
+                        let predictionsHtml = "<h6>Predicted Values:</h6><ul>";
+                        data.predictions.forEach((row, index) => {
+                            predictionsHtml += `<li>${JSON.stringify(row)}</li>`;
+                        });
+                        predictionsHtml += "</ul>";
+                        $('.json-result').append(predictionsHtml);
+                    } else {
+                        $('.json-result').append(`<p>Error fetching predictions: ${data.message}</p>`);
+                    }
+                });
+            }
+        });
+    </script>
+</body>
+
+</html>
+
+
+
