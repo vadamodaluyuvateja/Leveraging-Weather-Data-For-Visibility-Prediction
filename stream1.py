@@ -1,3 +1,14 @@
+import streamlit as st
+import os
+import random
+import requests
+import csv
+import folium
+import pandas as pd
+from geopy.geocoders import OpenCage
+from geopy.distance import geodesic
+from datetime import datetime, timedelta
+import shutil
 
 # Import your existing prediction modules
 from prediction_Validation_Insertion import pred_validation
@@ -86,7 +97,7 @@ def create_map(start_coords, end_coords, points, distance_miles, map_file_name="
     return os.path.join("maps", map_file_name)
 
 def main():
-    #st.title("Weather Data Generation and Prediction App")
+    st.title("Weather Data Generation and Prediction App")
 
     # Sidebar for navigation - removed Model Training option
     menu = ["Weather Data Generation", "Prediction", "View Predictions"]
