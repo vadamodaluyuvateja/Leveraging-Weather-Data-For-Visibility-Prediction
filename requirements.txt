@@ -9,3 +9,4 @@ streamlit
 pandas
 matplotlib
 kneed
+lightgbm
