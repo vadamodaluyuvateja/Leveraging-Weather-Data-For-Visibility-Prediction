@@ -1,0 +1,244 @@
+2025-01-04/12:05:34		Start of Validation on files for prediction!!
+2025-01-04/12:05:35		Raw Data Validation Complete!!
+2025-01-04/12:05:35		Starting Data Transforamtion!!
+2025-01-04/12:05:35		DataTransformation Completed!!!
+2025-01-04/12:05:35		Creating Prediction_Database and tables on the basis of given schema!!!
+2025-01-04/12:05:36		Table creation Completed!!
+2025-01-04/12:05:36		Insertion of Data into Table started!!!!
+2025-01-04/12:06:13		Insertion in Table completed!!!
+2025-01-04/12:06:13		Deleting Good Data Folder!!!
+2025-01-04/12:06:13		Good_Data folder deleted!!!
+2025-01-04/12:06:13		Moving bad files to Archive and deleting Bad_Data folder!!!
+2025-01-04/12:06:13		Bad files moved to archive!! Bad folder Deleted!!
+2025-01-04/12:06:13		Validation Operation completed!!
+2025-01-04/12:06:13		Extracting csv file from table
+2025-01-04/12:06:14		Start of Prediction
+2025-01-04/12:06:14		Entered the get_data method of the Data_Getter class
+2025-01-04/12:06:14		Data Load Successful.Exited the get_data method of the Data_Getter class
+2025-01-04/12:06:14		Entered the is_null_present method of the Preprocessor class
+2025-01-04/12:06:14		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2025-01-04/12:06:14		Entered the load_model method of the File_Operation class
+2025-01-04/12:06:14		Model File KMeans loaded. Exited the load_model method of the Model_Finder class
+2025-01-04/12:06:14		Entered the find_correct_model_file method of the File_Operation class
+2025-01-04/12:06:14		Exited the find_correct_model_file method of the Model_Finder class.
+2025-01-04/12:06:14		Entered the load_model method of the File_Operation class
+2025-01-04/12:06:14		Model File GradientBoostingRegressor2 loaded. Exited the load_model method of the Model_Finder class
+2025-01-04/12:06:14		End of Prediction
+2025-01-05/11:03:54		Start of Validation on files for prediction!!
+2025-01-05/11:03:57		Raw Data Validation Complete!!
+2025-01-05/11:03:57		Starting Data Transforamtion!!
+2025-01-05/11:03:57		DataTransformation Completed!!!
+2025-01-05/11:03:57		Creating Prediction_Database and tables on the basis of given schema!!!
+2025-01-05/11:03:57		Table creation Completed!!
+2025-01-05/11:03:57		Insertion of Data into Table started!!!!
+2025-01-05/11:04:36		Insertion in Table completed!!!
+2025-01-05/11:04:36		Deleting Good Data Folder!!!
+2025-01-05/11:04:36		Good_Data folder deleted!!!
+2025-01-05/11:04:36		Moving bad files to Archive and deleting Bad_Data folder!!!
+2025-01-05/11:04:36		Bad files moved to archive!! Bad folder Deleted!!
+2025-01-05/11:04:36		Validation Operation completed!!
+2025-01-05/11:04:36		Extracting csv file from table
+2025-01-05/11:04:36		Start of Prediction
+2025-01-05/11:04:36		Entered the get_data method of the Data_Getter class
+2025-01-05/11:04:36		Data Load Successful.Exited the get_data method of the Data_Getter class
+2025-01-05/11:04:36		Entered the is_null_present method of the Preprocessor class
+2025-01-05/11:04:36		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2025-01-05/11:04:36		Entered the load_model method of the File_Operation class
+2025-01-05/11:04:36		Model File KMeans loaded. Exited the load_model method of the Model_Finder class
+2025-01-05/11:04:36		Entered the find_correct_model_file method of the File_Operation class
+2025-01-05/11:04:36		Exited the find_correct_model_file method of the Model_Finder class.
+2025-01-05/11:04:36		Entered the load_model method of the File_Operation class
+2025-01-05/11:04:36		Model File GradientBoostingRegressor2 loaded. Exited the load_model method of the Model_Finder class
+2025-01-05/11:04:36		End of Prediction
+2025-01-05/12:49:08		Start of Validation on files for prediction!!
+2025-01-05/12:49:09		Raw Data Validation Complete!!
+2025-01-05/12:49:09		Starting Data Transforamtion!!
+2025-01-05/12:49:09		DataTransformation Completed!!!
+2025-01-05/12:49:09		Creating Prediction_Database and tables on the basis of given schema!!!
+2025-01-05/12:49:09		Table creation Completed!!
+2025-01-05/12:49:09		Insertion of Data into Table started!!!!
+2025-01-05/12:49:09		Insertion in Table completed!!!
+2025-01-05/12:49:09		Deleting Good Data Folder!!!
+2025-01-05/12:49:09		Good_Data folder deleted!!!
+2025-01-05/12:49:09		Moving bad files to Archive and deleting Bad_Data folder!!!
+2025-01-05/12:49:09		Bad files moved to archive!! Bad folder Deleted!!
+2025-01-05/12:49:09		Validation Operation completed!!
+2025-01-05/12:49:09		Extracting csv file from table
+2025-01-05/12:49:09		Start of Prediction
+2025-01-05/12:49:09		Entered the get_data method of the Data_Getter class
+2025-01-05/12:49:09		Data Load Successful.Exited the get_data method of the Data_Getter class
+2025-01-05/12:49:09		Entered the is_null_present method of the Preprocessor class
+2025-01-05/12:49:09		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2025-01-05/12:49:09		Entered the load_model method of the File_Operation class
+2025-01-05/12:49:09		Model File KMeans loaded. Exited the load_model method of the Model_Finder class
+2025-01-05/12:49:09		Entered the find_correct_model_file method of the File_Operation class
+2025-01-05/12:49:09		Exited the find_correct_model_file method of the Model_Finder class.
+2025-01-05/12:49:09		Entered the load_model method of the File_Operation class
+2025-01-05/12:49:09		Model File GradientBoostingRegressor2 loaded. Exited the load_model method of the Model_Finder class
+2025-01-05/12:49:09		End of Prediction
+2025-01-05/12:49:51		Start of Validation on files for prediction!!
+2025-01-05/12:49:52		Raw Data Validation Complete!!
+2025-01-05/12:49:52		Starting Data Transforamtion!!
+2025-01-05/12:49:52		DataTransformation Completed!!!
+2025-01-05/12:49:52		Creating Prediction_Database and tables on the basis of given schema!!!
+2025-01-05/12:49:52		Table creation Completed!!
+2025-01-05/12:49:52		Insertion of Data into Table started!!!!
+2025-01-05/12:49:52		Insertion in Table completed!!!
+2025-01-05/12:49:52		Deleting Good Data Folder!!!
+2025-01-05/12:49:52		Good_Data folder deleted!!!
+2025-01-05/12:49:52		Moving bad files to Archive and deleting Bad_Data folder!!!
+2025-01-05/12:49:52		Bad files moved to archive!! Bad folder Deleted!!
+2025-01-05/12:49:52		Validation Operation completed!!
+2025-01-05/12:49:52		Extracting csv file from table
+2025-01-05/12:49:52		Start of Prediction
+2025-01-05/12:49:52		Entered the get_data method of the Data_Getter class
+2025-01-05/12:49:52		Data Load Successful.Exited the get_data method of the Data_Getter class
+2025-01-05/12:49:52		Entered the is_null_present method of the Preprocessor class
+2025-01-05/12:49:52		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2025-01-05/12:49:52		Entered the load_model method of the File_Operation class
+2025-01-05/12:49:52		Model File KMeans loaded. Exited the load_model method of the Model_Finder class
+2025-01-05/12:49:52		Entered the find_correct_model_file method of the File_Operation class
+2025-01-05/12:49:52		Exited the find_correct_model_file method of the Model_Finder class.
+2025-01-05/12:49:52		Entered the load_model method of the File_Operation class
+2025-01-05/12:49:52		Model File GradientBoostingRegressor2 loaded. Exited the load_model method of the Model_Finder class
+2025-01-05/12:49:52		End of Prediction
+2025-01-05/13:23:51		Start of Validation on files for prediction!!
+2025-01-05/13:23:51		Raw Data Validation Complete!!
+2025-01-05/13:23:51		Starting Data Transforamtion!!
+2025-01-05/13:23:51		DataTransformation Completed!!!
+2025-01-05/13:23:51		Creating Prediction_Database and tables on the basis of given schema!!!
+2025-01-05/13:23:51		Table creation Completed!!
+2025-01-05/13:23:51		Insertion of Data into Table started!!!!
+2025-01-05/13:23:51		Insertion in Table completed!!!
+2025-01-05/13:23:51		Deleting Good Data Folder!!!
+2025-01-05/13:23:51		Good_Data folder deleted!!!
+2025-01-05/13:23:51		Moving bad files to Archive and deleting Bad_Data folder!!!
+2025-01-05/13:23:51		Bad files moved to archive!! Bad folder Deleted!!
+2025-01-05/13:23:51		Validation Operation completed!!
+2025-01-05/13:23:51		Extracting csv file from table
+2025-01-05/13:23:51		Start of Prediction
+2025-01-05/13:23:51		Entered the get_data method of the Data_Getter class
+2025-01-05/13:23:51		Data Load Successful.Exited the get_data method of the Data_Getter class
+2025-01-05/13:23:51		Entered the is_null_present method of the Preprocessor class
+2025-01-05/13:23:51		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2025-01-05/13:23:51		Entered the load_model method of the File_Operation class
+2025-01-05/13:23:51		Model File KMeans loaded. Exited the load_model method of the Model_Finder class
+2025-01-05/13:23:51		Entered the find_correct_model_file method of the File_Operation class
+2025-01-05/13:23:51		Exited the find_correct_model_file method of the Model_Finder class.
+2025-01-05/13:23:51		Entered the load_model method of the File_Operation class
+2025-01-05/13:23:51		Model File GradientBoostingRegressor2 loaded. Exited the load_model method of the Model_Finder class
+2025-01-05/13:23:51		End of Prediction
+2025-01-05/13:35:55		Start of Validation on files for prediction!!
+2025-01-05/13:35:56		Raw Data Validation Complete!!
+2025-01-05/13:35:56		Starting Data Transforamtion!!
+2025-01-05/13:35:56		DataTransformation Completed!!!
+2025-01-05/13:35:56		Creating Prediction_Database and tables on the basis of given schema!!!
+2025-01-05/13:35:56		Table creation Completed!!
+2025-01-05/13:35:56		Insertion of Data into Table started!!!!
+2025-01-05/13:35:56		Insertion in Table completed!!!
+2025-01-05/13:35:56		Deleting Good Data Folder!!!
+2025-01-05/13:35:56		Good_Data folder deleted!!!
+2025-01-05/13:35:56		Moving bad files to Archive and deleting Bad_Data folder!!!
+2025-01-05/13:35:56		Bad files moved to archive!! Bad folder Deleted!!
+2025-01-05/13:35:56		Validation Operation completed!!
+2025-01-05/13:35:56		Extracting csv file from table
+2025-01-05/13:35:56		Start of Prediction
+2025-01-05/13:35:56		Entered the get_data method of the Data_Getter class
+2025-01-05/13:35:56		Data Load Successful.Exited the get_data method of the Data_Getter class
+2025-01-05/13:35:56		Entered the is_null_present method of the Preprocessor class
+2025-01-05/13:35:56		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2025-01-05/13:35:56		Entered the load_model method of the File_Operation class
+2025-01-05/13:35:56		Model File KMeans loaded. Exited the load_model method of the Model_Finder class
+2025-01-05/13:35:56		Entered the find_correct_model_file method of the File_Operation class
+2025-01-05/13:35:56		Exited the find_correct_model_file method of the Model_Finder class.
+2025-01-05/13:35:56		Entered the load_model method of the File_Operation class
+2025-01-05/13:35:56		Model File GradientBoostingRegressor2 loaded. Exited the load_model method of the Model_Finder class
+2025-01-05/13:35:56		End of Prediction
+2025-01-06/11:14:48		Start of Validation on files for prediction!!
+2025-01-06/11:14:48		Raw Data Validation Complete!!
+2025-01-06/11:14:48		Starting Data Transforamtion!!
+2025-01-06/11:14:48		DataTransformation Completed!!!
+2025-01-06/11:14:48		Creating Prediction_Database and tables on the basis of given schema!!!
+2025-01-06/11:14:48		Table creation Completed!!
+2025-01-06/11:14:48		Insertion of Data into Table started!!!!
+2025-01-06/11:14:49		Insertion in Table completed!!!
+2025-01-06/11:14:49		Deleting Good Data Folder!!!
+2025-01-06/11:14:49		Good_Data folder deleted!!!
+2025-01-06/11:14:49		Moving bad files to Archive and deleting Bad_Data folder!!!
+2025-01-06/11:14:49		Bad files moved to archive!! Bad folder Deleted!!
+2025-01-06/11:14:49		Validation Operation completed!!
+2025-01-06/11:14:49		Extracting csv file from table
+2025-01-06/11:14:49		Start of Prediction
+2025-01-06/11:14:49		Entered the get_data method of the Data_Getter class
+2025-01-06/11:14:49		Data Load Successful.Exited the get_data method of the Data_Getter class
+2025-01-06/11:14:49		Entered the is_null_present method of the Preprocessor class
+2025-01-06/11:14:49		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2025-01-06/11:14:49		Entered the load_model method of the File_Operation class
+2025-01-06/11:14:49		Model File KMeans loaded. Exited the load_model method of the Model_Finder class
+2025-01-06/11:14:49		Entered the find_correct_model_file method of the File_Operation class
+2025-01-06/11:14:49		Exited the find_correct_model_file method of the Model_Finder class.
+2025-01-06/11:14:49		Entered the load_model method of the File_Operation class
+2025-01-06/11:14:49		Model File GradientBoostingRegressor2 loaded. Exited the load_model method of the Model_Finder class
+2025-01-06/11:14:49		End of Prediction
+2025-01-26/20:16:38		Start of Validation on files for prediction!!
+2025-01-26/21:00:48		Start of Validation on files for prediction!!
+2025-01-26/21:01:06		Start of Validation on files for prediction!!
+2025-01-26/21:07:37		Start of Validation on files for prediction!!
+2025-01-26/21:07:39		Raw Data Validation Complete!!
+2025-01-26/21:07:39		Starting Data Transforamtion!!
+2025-01-26/21:07:39		DataTransformation Completed!!!
+2025-01-26/21:07:39		Creating Prediction_Database and tables on the basis of given schema!!!
+2025-01-26/21:07:41		Table creation Completed!!
+2025-01-26/21:07:41		Insertion of Data into Table started!!!!
+2025-01-26/21:09:52		Insertion in Table completed!!!
+2025-01-26/21:09:52		Deleting Good Data Folder!!!
+2025-01-26/21:09:52		Good_Data folder deleted!!!
+2025-01-26/21:09:52		Moving bad files to Archive and deleting Bad_Data folder!!!
+2025-01-26/21:09:52		Bad files moved to archive!! Bad folder Deleted!!
+2025-01-26/21:09:52		Validation Operation completed!!
+2025-01-26/21:09:52		Extracting csv file from table
+2025-01-26/21:09:52		Start of Prediction
+2025-01-26/21:09:52		Entered the get_data method of the Data_Getter class
+2025-01-26/21:09:52		Data Load Successful.Exited the get_data method of the Data_Getter class
+2025-01-26/21:09:52		Entered the is_null_present method of the Preprocessor class
+2025-01-26/21:09:52		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2025-01-26/21:09:52		Entered the load_model method of the File_Operation class
+2025-01-26/21:09:52		Model File KMeans loaded. Exited the load_model method of the Model_Finder class
+2025-01-26/21:09:57		Entered the find_correct_model_file method of the File_Operation class
+2025-01-26/21:09:57		Exited the find_correct_model_file method of the Model_Finder class.
+2025-01-26/21:09:57		Entered the load_model method of the File_Operation class
+2025-01-26/21:09:57		Model File GradientBoostingRegressor2 loaded. Exited the load_model method of the Model_Finder class
+2025-01-26/21:09:57		Exception occured in load_model method of the Model_Finder class. Exception message:  No module named 'sklearn.ensemble._gb_losses'
+2025-01-26/21:09:57		Model File GradientBoostingRegressor2 could not be saved. Exited the load_model method of the Model_Finder class
+2025-01-26/21:09:57		Error occured while running the prediction!! Error:: 
+2025-01-26/21:26:39		Start of Validation on files for prediction!!
+2025-01-26/21:26:55		Start of Validation on files for prediction!!
+2025-01-26/21:26:56		Raw Data Validation Complete!!
+2025-01-26/21:26:56		Starting Data Transforamtion!!
+2025-01-26/21:26:56		DataTransformation Completed!!!
+2025-01-26/21:26:56		Creating Prediction_Database and tables on the basis of given schema!!!
+2025-01-26/21:26:58		Table creation Completed!!
+2025-01-26/21:26:58		Insertion of Data into Table started!!!!
+2025-01-26/21:28:21		Insertion in Table completed!!!
+2025-01-26/21:28:21		Deleting Good Data Folder!!!
+2025-01-26/21:28:21		Good_Data folder deleted!!!
+2025-01-26/21:28:21		Moving bad files to Archive and deleting Bad_Data folder!!!
+2025-01-26/21:28:21		Bad files moved to archive!! Bad folder Deleted!!
+2025-01-26/21:28:21		Validation Operation completed!!
+2025-01-26/21:28:21		Extracting csv file from table
+2025-01-26/21:28:21		Start of Prediction
+2025-01-26/21:28:21		Entered the get_data method of the Data_Getter class
+2025-01-26/21:28:21		Data Load Successful.Exited the get_data method of the Data_Getter class
+2025-01-26/21:28:21		Entered the is_null_present method of the Preprocessor class
+2025-01-26/21:28:21		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2025-01-26/21:28:21		Entered the load_model method of the File_Operation class
+2025-01-26/21:28:21		Model File KMeans loaded. Exited the load_model method of the Model_Finder class
+2025-01-26/21:28:21		Entered the find_correct_model_file method of the File_Operation class
+2025-01-26/21:28:21		Exited the find_correct_model_file method of the Model_Finder class.
+2025-01-26/21:28:21		Entered the load_model method of the File_Operation class
+2025-01-26/21:28:21		Model File GradientBoostingRegressor2 loaded. Exited the load_model method of the Model_Finder class
+2025-01-26/21:28:21		Exception occured in load_model method of the Model_Finder class. Exception message:  No module named 'sklearn.ensemble._gb_losses'
+2025-01-26/21:28:21		Model File GradientBoostingRegressor2 could not be saved. Exited the load_model method of the Model_Finder class
+2025-01-26/21:28:21		Error occured while running the prediction!! Error:: 
+2025-01-26/21:28:24		Start of Validation on files for prediction!!
+2025-01-26/21:35:47		Start of Validation on files for prediction!!
