@@ -6,3 +6,5 @@ requests
 SQLAlchemy
 numpy
 streamlit
+pandas
+matplotlib
