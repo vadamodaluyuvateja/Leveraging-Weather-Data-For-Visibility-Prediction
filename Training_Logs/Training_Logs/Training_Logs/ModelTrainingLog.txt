@@ -1,0 +1,365 @@
+2024-12-25/17:18:09		Start of Training
+2024-12-25/17:18:09		Entered the get_data method of the Data_Getter class
+2024-12-25/17:18:09		Data Load Successful.Exited the get_data method of the Data_Getter class
+2024-12-25/17:18:09		Entered the is_null_present method of the Preprocessor class
+2024-12-25/17:18:09		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2024-12-25/17:18:09		Entered the separate_label_feature method of the Preprocessor class
+2024-12-25/17:18:09		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2024-12-25/17:18:09		Entered the elbow_plot method of the KMeansClustering class
+2024-12-25/17:18:35		The optimum number of clusters is: 3 . Exited the elbow_plot method of the KMeansClustering class
+2024-12-25/17:18:35		Entered the create_clusters method of the KMeansClustering class
+2024-12-25/17:18:36		Entered the save_model method of the File_Operation class
+2024-12-25/17:18:36		Model File KMeans saved. Exited the save_model method of the Model_Finder class
+2024-12-25/17:18:36		succesfully created 3clusters. Exited the create_clusters method of the KMeansClustering class
+2024-12-25/17:18:36		Entered the get_best_model method of the Model_Finder class
+2024-12-25/17:18:36		Entered the get_best_params_for_DecisionTreeRegressor method of the Model_Finder class
+2024-12-25/17:19:17		DecisionTreeRegressor best params: {'criterion': 'friedman_mse', 'max_depth': 6, 'max_features': 'auto', 'min_samples_split': 2, 'splitter': 'best'}. Exited the method.
+2024-12-25/17:19:17		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2024-12-25/17:29:31		XGBoost best params: {'learning_rate': 0.1, 'max_depth': 5, 'n_estimators': 200}. Exited the method.
+2024-12-25/17:29:31		Entered the get_best_params_for_adaboost method of the Model_Finder class
+2024-12-25/17:30:01		AdaBoost best params: {'learning_rate': 1.0, 'n_estimators': 150}. Exited the method.
+2024-12-25/17:30:01		Entered the get_best_params_for_lightgbm method of the Model_Finder class
+2024-12-25/17:30:02		Exception occurred in get_best_params_for_lightgbm: cpu_count() got an unexpected keyword argument 'only_physical_cores'
+2024-12-25/17:30:02		Exception occurred in get_best_model: 
+2024-12-25/17:30:02		Unsuccessful End of Training
+2024-12-25/17:47:57		Start of Training
+2024-12-25/17:47:57		Entered the get_data method of the Data_Getter class
+2024-12-25/17:47:58		Data Load Successful.Exited the get_data method of the Data_Getter class
+2024-12-25/17:47:58		Entered the is_null_present method of the Preprocessor class
+2024-12-25/17:47:58		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2024-12-25/17:47:58		Entered the separate_label_feature method of the Preprocessor class
+2024-12-25/17:47:58		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2024-12-25/17:47:58		Entered the elbow_plot method of the KMeansClustering class
+2024-12-25/17:48:52		The optimum number of clusters is: 3 . Exited the elbow_plot method of the KMeansClustering class
+2024-12-25/17:48:52		Entered the create_clusters method of the KMeansClustering class
+2024-12-25/17:48:54		Entered the save_model method of the File_Operation class
+2024-12-25/17:48:54		Model File KMeans saved. Exited the save_model method of the Model_Finder class
+2024-12-25/17:48:54		succesfully created 3clusters. Exited the create_clusters method of the KMeansClustering class
+2024-12-25/17:48:54		Entered the get_best_model method of the Model_Finder class
+2024-12-25/17:48:54		Entered the get_best_params_for_DecisionTreeRegressor method of the Model_Finder class
+2024-12-25/17:49:54		DecisionTreeRegressor best params: {'criterion': 'friedman_mse', 'max_depth': 14, 'max_features': 'log2', 'min_samples_split': 2, 'splitter': 'best'}. Exited the method.
+2024-12-25/17:49:54		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2024-12-25/18:17:06		XGBoost best params: {'learning_rate': 0.1, 'max_depth': 20, 'n_estimators': 100}. Exited the method.
+2024-12-25/18:17:06		Entered the get_best_params_for_adaboost method of the Model_Finder class
+2024-12-25/18:17:32		AdaBoost best params: {'learning_rate': 0.1, 'n_estimators': 50}. Exited the method.
+2024-12-25/18:17:32		Entered the get_best_params_for_lightgbm method of the Model_Finder class
+2024-12-25/18:17:32		Exception occurred in get_best_params_for_lightgbm: cpu_count() got an unexpected keyword argument 'only_physical_cores'
+2024-12-25/18:17:32		Exception occurred in get_best_model: 
+2024-12-25/18:17:32		Unsuccessful End of Training
+2024-12-25/19:00:20		Start of Training
+2024-12-25/19:00:20		Entered the get_data method of the Data_Getter class
+2024-12-25/19:00:20		Data Load Successful.Exited the get_data method of the Data_Getter class
+2024-12-25/19:00:20		Entered the is_null_present method of the Preprocessor class
+2024-12-25/19:00:20		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2024-12-25/19:00:20		Entered the separate_label_feature method of the Preprocessor class
+2024-12-25/19:00:20		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2024-12-25/19:00:20		Entered the elbow_plot method of the KMeansClustering class
+2024-12-25/19:00:52		The optimum number of clusters is: 3 . Exited the elbow_plot method of the KMeansClustering class
+2024-12-25/19:00:52		Entered the create_clusters method of the KMeansClustering class
+2024-12-25/19:00:53		Entered the save_model method of the File_Operation class
+2024-12-25/19:00:53		Model File KMeans saved. Exited the save_model method of the Model_Finder class
+2024-12-25/19:00:53		succesfully created 3clusters. Exited the create_clusters method of the KMeansClustering class
+2024-12-25/19:00:53		Entered the get_best_model method of the Model_Finder class
+2024-12-25/19:00:53		Entered the get_best_params_for_DecisionTreeRegressor method of the Model_Finder class
+2024-12-25/19:02:25		DecisionTreeRegressor best params: {'criterion': 'friedman_mse', 'max_depth': 14, 'max_features': 'auto', 'min_samples_split': 2, 'splitter': 'best'}. Exited the method.
+2024-12-25/19:02:25		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2024-12-25/19:13:46		XGBoost best params: {'learning_rate': 0.1, 'max_depth': 20, 'n_estimators': 100}. Exited the method.
+2024-12-25/19:13:46		Entered the get_best_params_for_adaboost method of the Model_Finder class
+2024-12-25/19:14:18		AdaBoost best params: {'learning_rate': 1.0, 'n_estimators': 50}. Exited the method.
+2024-12-25/19:14:18		Entered the get_best_params_for_lightgbm method of the Model_Finder class
+2024-12-25/19:14:19		Exception occurred in get_best_params_for_lightgbm: cpu_count() got an unexpected keyword argument 'only_physical_cores'
+2024-12-25/19:14:19		Exception occurred in get_best_model: 
+2024-12-25/19:14:19		Unsuccessful End of Training
+2024-12-25/21:28:00		Start of Training
+2024-12-25/21:28:00		Entered the get_data method of the Data_Getter class
+2024-12-25/21:28:01		Data Load Successful.Exited the get_data method of the Data_Getter class
+2024-12-25/21:28:01		Entered the is_null_present method of the Preprocessor class
+2024-12-25/21:28:01		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2024-12-25/21:28:01		Entered the separate_label_feature method of the Preprocessor class
+2024-12-25/21:28:01		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2024-12-25/21:28:01		Entered the elbow_plot method of the KMeansClustering class
+2024-12-25/21:29:08		The optimum number of clusters is: 3 . Exited the elbow_plot method of the KMeansClustering class
+2024-12-25/21:29:08		Entered the create_clusters method of the KMeansClustering class
+2024-12-25/21:29:10		Entered the save_model method of the File_Operation class
+2024-12-25/21:29:10		Model File KMeans saved. Exited the save_model method of the Model_Finder class
+2024-12-25/21:29:10		succesfully created 3clusters. Exited the create_clusters method of the KMeansClustering class
+2024-12-25/21:29:10		Entered the get_best_model method of the Model_Finder class
+2024-12-25/21:29:10		Entered the get_best_params_for_DecisionTreeRegressor method of the Model_Finder class
+2024-12-25/21:32:57		DecisionTreeRegressor best params: {'criterion': 'friedman_mse', 'max_depth': 14, 'max_features': 'auto', 'min_samples_split': 2, 'splitter': 'best'}. Exited the method.
+2024-12-25/21:32:57		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2024-12-25/22:10:29		XGBoost best params: {'learning_rate': 0.1, 'max_depth': 20, 'n_estimators': 100}. Exited the method.
+2024-12-25/22:10:29		Entered the get_best_params_for_adaboost method of the Model_Finder class
+2024-12-25/22:12:16		AdaBoost best params: {'learning_rate': 1.0, 'n_estimators': 150}. Exited the method.
+2024-12-25/22:12:16		Entered the get_best_params_for_neural_network method of the Model_Finder class
+2024-12-25/22:12:16		Exception occurred in get_best_params_for_neural_network: cannot serialize '_io.TextIOWrapper' object
+2024-12-25/22:12:16		Exception occurred in get_best_model: 
+2024-12-25/22:12:16		Unsuccessful End of Training
+2024-12-25/22:23:43		Start of Training
+2024-12-25/22:23:43		Entered the get_data method of the Data_Getter class
+2024-12-25/22:23:43		Data Load Successful.Exited the get_data method of the Data_Getter class
+2024-12-25/22:23:43		Entered the is_null_present method of the Preprocessor class
+2024-12-25/22:23:43		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2024-12-25/22:23:43		Entered the separate_label_feature method of the Preprocessor class
+2024-12-25/22:23:43		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2024-12-25/22:23:43		Entered the elbow_plot method of the KMeansClustering class
+2024-12-25/22:25:02		The optimum number of clusters is: 3 . Exited the elbow_plot method of the KMeansClustering class
+2024-12-25/22:25:02		Entered the create_clusters method of the KMeansClustering class
+2024-12-25/22:25:06		Entered the save_model method of the File_Operation class
+2024-12-25/22:25:06		Model File KMeans saved. Exited the save_model method of the Model_Finder class
+2024-12-25/22:25:06		succesfully created 3clusters. Exited the create_clusters method of the KMeansClustering class
+2024-12-25/22:25:06		Entered the get_best_model method of the Model_Finder class
+2024-12-25/22:25:06		Entered the get_best_params_for_DecisionTreeRegressor method of the Model_Finder class
+2024-12-25/22:28:34		DecisionTreeRegressor best params: {'criterion': 'friedman_mse', 'max_depth': 14, 'max_features': 'auto', 'min_samples_split': 4, 'splitter': 'best'}. Exited the method.
+2024-12-25/22:28:34		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2024-12-25/22:51:46		XGBoost best params: {'learning_rate': 0.1, 'max_depth': 20, 'n_estimators': 200}. Exited the method.
+2024-12-25/22:51:46		Entered the get_best_params_for_adaboost method of the Model_Finder class
+2024-12-25/22:52:43		AdaBoost best params: {'learning_rate': 1.0, 'n_estimators': 50}. Exited the method.
+2024-12-25/22:52:43		Entered the get_best_params_for_neural_network method of the Model_Finder class
+2024-12-25/22:52:43		Exception occurred in get_best_params_for_neural_network: cannot serialize '_io.TextIOWrapper' object
+2024-12-25/22:52:43		Exception occurred in get_best_model: 
+2024-12-25/22:52:43		Unsuccessful End of Training
+2024-12-25/23:04:25		Start of Training
+2024-12-25/23:04:25		Entered the get_data method of the Data_Getter class
+2024-12-25/23:04:26		Data Load Successful.Exited the get_data method of the Data_Getter class
+2024-12-25/23:04:26		Entered the is_null_present method of the Preprocessor class
+2024-12-25/23:04:26		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2024-12-25/23:04:26		Entered the separate_label_feature method of the Preprocessor class
+2024-12-25/23:04:26		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2024-12-25/23:04:26		Entered the elbow_plot method of the KMeansClustering class
+2024-12-25/23:05:27		The optimum number of clusters is: 3 . Exited the elbow_plot method of the KMeansClustering class
+2024-12-25/23:05:27		Entered the create_clusters method of the KMeansClustering class
+2024-12-25/23:05:30		Entered the save_model method of the File_Operation class
+2024-12-25/23:05:30		Model File KMeans saved. Exited the save_model method of the Model_Finder class
+2024-12-25/23:05:30		succesfully created 3clusters. Exited the create_clusters method of the KMeansClustering class
+2024-12-25/23:05:30		Unsuccessful End of Training
+2024-12-25/23:23:42		Start of Training
+2024-12-25/23:23:42		Entered the get_data method of the Data_Getter class
+2024-12-25/23:23:42		Data Load Successful.Exited the get_data method of the Data_Getter class
+2024-12-25/23:23:42		Entered the is_null_present method of the Preprocessor class
+2024-12-25/23:23:42		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2024-12-25/23:23:42		Entered the separate_label_feature method of the Preprocessor class
+2024-12-25/23:23:42		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2024-12-25/23:23:42		Entered the elbow_plot method of the KMeansClustering class
+2024-12-25/23:24:47		The optimum number of clusters is: 3 . Exited the elbow_plot method of the KMeansClustering class
+2024-12-25/23:24:47		Entered the create_clusters method of the KMeansClustering class
+2024-12-25/23:24:50		Entered the save_model method of the File_Operation class
+2024-12-25/23:24:50		Model File KMeans saved. Exited the save_model method of the Model_Finder class
+2024-12-25/23:24:50		succesfully created 3clusters. Exited the create_clusters method of the KMeansClustering class
+2024-12-25/23:24:50		Unsuccessful End of Training
+2024-12-25/23:38:13		Start of Training
+2024-12-25/23:38:13		Entered the get_data method of the Data_Getter class
+2024-12-25/23:38:14		Data Load Successful.Exited the get_data method of the Data_Getter class
+2024-12-25/23:38:14		Entered the is_null_present method of the Preprocessor class
+2024-12-25/23:38:14		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2024-12-25/23:38:14		Entered the separate_label_feature method of the Preprocessor class
+2024-12-25/23:38:14		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2024-12-25/23:38:14		Entered the elbow_plot method of the KMeansClustering class
+2024-12-25/23:40:29		The optimum number of clusters is: 3 . Exited the elbow_plot method of the KMeansClustering class
+2024-12-25/23:40:29		Entered the create_clusters method of the KMeansClustering class
+2024-12-25/23:40:34		Entered the save_model method of the File_Operation class
+2024-12-25/23:40:34		Model File KMeans saved. Exited the save_model method of the Model_Finder class
+2024-12-25/23:40:34		succesfully created 3clusters. Exited the create_clusters method of the KMeansClustering class
+2024-12-25/23:40:34		Unsuccessful End of Training
+2024-12-26/09:19:25		Start of Training
+2024-12-26/09:19:25		Entered the get_data method of the Data_Getter class
+2024-12-26/09:19:26		Data Load Successful.Exited the get_data method of the Data_Getter class
+2024-12-26/09:19:26		Entered the is_null_present method of the Preprocessor class
+2024-12-26/09:19:26		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2024-12-26/09:19:26		Entered the separate_label_feature method of the Preprocessor class
+2024-12-26/09:19:26		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2024-12-26/09:19:26		Entered the elbow_plot method of the KMeansClustering class
+2024-12-26/09:22:39		The optimum number of clusters is: 3 . Exited the elbow_plot method of the KMeansClustering class
+2024-12-26/09:22:39		Entered the create_clusters method of the KMeansClustering class
+2024-12-26/09:22:44		Entered the save_model method of the File_Operation class
+2024-12-26/09:22:44		Model File KMeans saved. Exited the save_model method of the Model_Finder class
+2024-12-26/09:22:44		succesfully created 3clusters. Exited the create_clusters method of the KMeansClustering class
+2024-12-26/09:22:44		Evaluating models to find the best one.
+2024-12-26/09:22:44		Training Neural Network for regression.
+2024-12-26/09:28:01		Training DecisionTreeRegressor with hyperparameter tuning.
+2024-12-26/09:31:41		Best parameters for DecisionTreeRegressor: {'criterion': 'friedman_mse', 'max_depth': 14, 'max_features': 'auto', 'min_samples_split': 4, 'splitter': 'best'}
+2024-12-26/09:31:42		Training XGBoost with hyperparameter tuning.
+2024-12-26/10:02:39		Best parameters for XGBoost: {'learning_rate': 0.1, 'max_depth': 10, 'n_estimators': 200}
+2024-12-26/10:03:05		Entered the save_model method of the File_Operation class
+2024-12-26/10:03:05		Model File XGBoost1 saved. Exited the save_model method of the Model_Finder class
+2024-12-26/10:03:05		Evaluating models to find the best one.
+2024-12-26/10:03:05		Training Neural Network for regression.
+2024-12-26/10:07:42		Training DecisionTreeRegressor with hyperparameter tuning.
+2024-12-26/10:10:30		Best parameters for DecisionTreeRegressor: {'criterion': 'friedman_mse', 'max_depth': 14, 'max_features': 'auto', 'min_samples_split': 4, 'splitter': 'best'}
+2024-12-26/10:10:30		Training XGBoost with hyperparameter tuning.
+2024-12-26/10:29:54		Best parameters for XGBoost: {'learning_rate': 0.1, 'max_depth': 10, 'n_estimators': 200}
+2024-12-26/10:30:27		Entered the save_model method of the File_Operation class
+2024-12-26/10:30:27		Model File XGBoost2 saved. Exited the save_model method of the Model_Finder class
+2024-12-26/10:30:27		Evaluating models to find the best one.
+2024-12-26/10:30:27		Training Neural Network for regression.
+2024-12-26/10:39:05		Training DecisionTreeRegressor with hyperparameter tuning.
+2024-12-26/10:44:48		Best parameters for DecisionTreeRegressor: {'criterion': 'friedman_mse', 'max_depth': 14, 'max_features': 'auto', 'min_samples_split': 4, 'splitter': 'best'}
+2024-12-26/10:44:49		Training XGBoost with hyperparameter tuning.
+2024-12-26/12:09:58		Best parameters for XGBoost: {'learning_rate': 0.1, 'max_depth': 10, 'n_estimators': 200}
+2024-12-26/12:10:34		Entered the save_model method of the File_Operation class
+2024-12-26/12:10:34		Model File XGBoost0 saved. Exited the save_model method of the Model_Finder class
+2024-12-26/12:10:34		Successful End of Training
+2024-12-29/20:56:04		Start of Training
+2024-12-29/20:56:04		Entered the get_data method of the Data_Getter class
+2024-12-29/20:56:05		Data Load Successful.Exited the get_data method of the Data_Getter class
+2024-12-29/20:56:05		Entered the is_null_present method of the Preprocessor class
+2024-12-29/20:56:05		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2024-12-29/20:56:05		Entered the separate_label_feature method of the Preprocessor class
+2024-12-29/20:56:05		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2024-12-29/20:56:05		Entered the elbow_plot method of the KMeansClustering class
+2024-12-29/20:58:18		The optimum number of clusters is: 3 . Exited the elbow_plot method of the KMeansClustering class
+2024-12-29/20:58:18		Entered the create_clusters method of the KMeansClustering class
+2024-12-29/20:58:25		Entered the save_model method of the File_Operation class
+2024-12-29/20:58:25		Model File KMeans saved. Exited the save_model method of the Model_Finder class
+2024-12-29/20:58:25		succesfully created 3clusters. Exited the create_clusters method of the KMeansClustering class
+2024-12-29/20:58:25		Evaluating models to find the best one.
+2024-12-29/20:58:25		Training Neural Network for regression.
+2024-12-29/21:04:27		Training DecisionTreeRegressor with hyperparameter tuning.
+2024-12-29/21:07:47		Best parameters for DecisionTreeRegressor: {'criterion': 'friedman_mse', 'max_depth': 14, 'max_features': 'auto', 'min_samples_split': 2, 'splitter': 'best'}
+2024-12-29/21:07:47		Training XGBoost with hyperparameter tuning.
+2024-12-29/22:50:47		Best parameters for XGBoost: {'learning_rate': 0.1, 'max_depth': 10, 'n_estimators': 200}
+2024-12-29/22:51:34		Entered the save_model method of the File_Operation class
+2024-12-29/22:51:34		Model File XGBoost1 saved. Exited the save_model method of the Model_Finder class
+2024-12-29/22:51:34		Evaluating models to find the best one.
+2024-12-29/22:51:34		Training Neural Network for regression.
+2024-12-29/23:00:35		Training DecisionTreeRegressor with hyperparameter tuning.
+2024-12-29/23:06:57		Best parameters for DecisionTreeRegressor: {'criterion': 'friedman_mse', 'max_depth': 14, 'max_features': 'auto', 'min_samples_split': 2, 'splitter': 'best'}
+2024-12-29/23:06:58		Training XGBoost with hyperparameter tuning.
+2024-12-29/23:56:30		Best parameters for XGBoost: {'learning_rate': 0.1, 'max_depth': 10, 'n_estimators': 200}
+2024-12-29/23:57:48		Entered the save_model method of the File_Operation class
+2024-12-29/23:57:48		Model File XGBoost2 saved. Exited the save_model method of the Model_Finder class
+2024-12-29/23:57:49		Evaluating models to find the best one.
+2024-12-29/23:57:49		Training Neural Network for regression.
+2024-12-30/00:06:18		Training DecisionTreeRegressor with hyperparameter tuning.
+2024-12-30/00:12:14		Best parameters for DecisionTreeRegressor: {'criterion': 'friedman_mse', 'max_depth': 14, 'max_features': 'auto', 'min_samples_split': 4, 'splitter': 'best'}
+2024-12-30/00:12:14		Training XGBoost with hyperparameter tuning.
+2024-12-30/00:49:41		Best parameters for XGBoost: {'learning_rate': 0.1, 'max_depth': 10, 'n_estimators': 200}
+2024-12-30/00:50:32		Entered the save_model method of the File_Operation class
+2024-12-30/00:50:32		Model File XGBoost0 saved. Exited the save_model method of the Model_Finder class
+2024-12-30/00:50:32		Successful End of Training
+2024-12-30/11:21:29		Start of Training
+2024-12-30/11:21:29		Entered the get_data method of the Data_Getter class
+2024-12-30/11:21:33		Data Load Successful.Exited the get_data method of the Data_Getter class
+2024-12-30/11:21:33		Entered the is_null_present method of the Preprocessor class
+2024-12-30/11:21:33		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2024-12-30/11:21:33		Entered the separate_label_feature method of the Preprocessor class
+2024-12-30/11:21:33		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2024-12-30/11:21:33		Entered the elbow_plot method of the KMeansClustering class
+2024-12-30/11:25:52		The optimum number of clusters is: 3 . Exited the elbow_plot method of the KMeansClustering class
+2024-12-30/11:25:52		Entered the create_clusters method of the KMeansClustering class
+2024-12-30/11:25:59		Entered the save_model method of the File_Operation class
+2024-12-30/11:25:59		Model File KMeans saved. Exited the save_model method of the Model_Finder class
+2024-12-30/11:25:59		succesfully created 3clusters. Exited the create_clusters method of the KMeansClustering class
+2024-12-30/11:25:59		Evaluating models to find the best one.
+2024-12-30/11:25:59		Training Advanced Neural Network for regression.
+2024-12-30/11:48:22		Best R2 Score for Neural Network: 0.6086
+2024-12-30/11:48:25		Neural Network R2 Score: 0.6017
+2024-12-30/11:48:25		Training DecisionTreeRegressor with hyperparameter tuning.
+2024-12-30/11:52:57		Best parameters for DecisionTreeRegressor: {'criterion': 'friedman_mse', 'max_depth': 14, 'max_features': 'auto', 'min_samples_split': 2, 'splitter': 'best'}
+2024-12-30/11:52:58		DecisionTreeRegressor R2 Score: 0.8180
+2024-12-30/11:52:58		Training LightGBM with hyperparameter tuning.
+2024-12-30/11:53:00		Exception occurred in get_best_params_for_lightgbm: cpu_count() got an unexpected keyword argument 'only_physical_cores'
+2024-12-30/11:53:00		Exception occurred in get_best_model: 
+2024-12-30/11:53:00		Unsuccessful End of Training
+2024-12-30/12:17:18		Start of Training
+2024-12-30/12:17:18		Entered the get_data method of the Data_Getter class
+2024-12-30/12:17:20		Data Load Successful.Exited the get_data method of the Data_Getter class
+2024-12-30/12:17:20		Entered the is_null_present method of the Preprocessor class
+2024-12-30/12:17:20		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2024-12-30/12:17:20		Entered the separate_label_feature method of the Preprocessor class
+2024-12-30/12:17:20		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2024-12-30/12:17:20		Entered the elbow_plot method of the KMeansClustering class
+2024-12-30/12:19:08		The optimum number of clusters is: 3 . Exited the elbow_plot method of the KMeansClustering class
+2024-12-30/12:19:08		Entered the create_clusters method of the KMeansClustering class
+2024-12-30/12:19:13		Entered the save_model method of the File_Operation class
+2024-12-30/12:19:13		Model File KMeans saved. Exited the save_model method of the Model_Finder class
+2024-12-30/12:19:13		succesfully created 3clusters. Exited the create_clusters method of the KMeansClustering class
+2024-12-30/12:19:13		Evaluating models to find the best one.
+2024-12-30/12:19:13		Training Advanced Neural Network for regression.
+2024-12-30/12:49:58		Best R2 Score for Neural Network: 0.6226
+2024-12-30/12:50:00		Neural Network R2 Score: 0.6125
+2024-12-30/12:50:00		Training DecisionTreeRegressor with hyperparameter tuning.
+2024-12-30/12:53:05		Best parameters for DecisionTreeRegressor: {'criterion': 'friedman_mse', 'max_depth': 14, 'max_features': 'auto', 'min_samples_split': 4, 'splitter': 'best'}
+2024-12-30/12:53:06		DecisionTreeRegressor R2 Score: 0.8096
+2024-12-30/12:53:06		Training CatBoost with hyperparameter tuning.
+2024-12-30/13:02:58		CatBoost R2 Score: 0.8320
+2024-12-30/13:02:58		Best Model: CatBoost
+2024-12-30/13:02:58		Entered the save_model method of the File_Operation class
+2024-12-30/13:02:58		Model File CatBoost2 saved. Exited the save_model method of the Model_Finder class
+2024-12-30/13:02:58		Evaluating models to find the best one.
+2024-12-30/13:02:58		Training Advanced Neural Network for regression.
+2024-12-30/13:35:35		Best R2 Score for Neural Network: 0.6895
+2024-12-30/13:35:40		Neural Network R2 Score: 0.6889
+2024-12-30/13:35:40		Training DecisionTreeRegressor with hyperparameter tuning.
+2024-12-30/13:44:18		Best parameters for DecisionTreeRegressor: {'criterion': 'friedman_mse', 'max_depth': 14, 'max_features': 'auto', 'min_samples_split': 2, 'splitter': 'best'}
+2024-12-30/13:44:19		DecisionTreeRegressor R2 Score: 0.9374
+2024-12-30/13:44:19		Training CatBoost with hyperparameter tuning.
+2024-12-30/14:55:09		CatBoost R2 Score: 0.9488
+2024-12-30/14:55:09		Best Model: CatBoost
+2024-12-30/14:55:09		Entered the save_model method of the File_Operation class
+2024-12-30/14:55:09		Model File CatBoost1 saved. Exited the save_model method of the Model_Finder class
+2024-12-30/14:55:09		Evaluating models to find the best one.
+2024-12-30/14:55:09		Training Advanced Neural Network for regression.
+2024-12-30/15:44:25		Best R2 Score for Neural Network: 0.6321
+2024-12-30/15:44:29		Neural Network R2 Score: 0.6134
+2024-12-30/15:44:29		Training DecisionTreeRegressor with hyperparameter tuning.
+2024-12-30/15:53:36		Best parameters for DecisionTreeRegressor: {'criterion': 'friedman_mse', 'max_depth': 14, 'max_features': 'auto', 'min_samples_split': 4, 'splitter': 'best'}
+2024-12-30/15:53:38		DecisionTreeRegressor R2 Score: 0.8357
+2024-12-30/15:53:38		Training CatBoost with hyperparameter tuning.
+2024-12-30/15:55:03		CatBoost R2 Score: 0.8041
+2024-12-30/15:55:03		Best Model: DecisionTreeRegressor
+2024-12-30/15:55:04		Entered the save_model method of the File_Operation class
+2024-12-30/15:55:04		Model File DecisionTreeRegressor0 saved. Exited the save_model method of the Model_Finder class
+2024-12-30/15:55:04		Successful End of Training
+2025-01-03/14:04:12		Start of Training
+2025-01-03/14:04:12		Entered the get_data method of the Data_Getter class
+2025-01-03/14:04:14		Data Load Successful.Exited the get_data method of the Data_Getter class
+2025-01-03/14:04:14		Entered the is_null_present method of the Preprocessor class
+2025-01-03/14:04:14		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2025-01-03/14:04:14		Entered the separate_label_feature method of the Preprocessor class
+2025-01-03/14:04:14		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2025-01-03/14:04:14		Entered the elbow_plot method of the KMeansClustering class
+2025-01-03/14:06:27		The optimum number of clusters is: 3 . Exited the elbow_plot method of the KMeansClustering class
+2025-01-03/14:06:27		Entered the create_clusters method of the KMeansClustering class
+2025-01-03/14:06:33		Entered the save_model method of the File_Operation class
+2025-01-03/14:06:33		Model File KMeans saved. Exited the save_model method of the Model_Finder class
+2025-01-03/14:06:33		succesfully created 3clusters. Exited the create_clusters method of the KMeansClustering class
+2025-01-03/14:06:33		Training LightGBM model...
+2025-01-03/14:06:33		Finding best params for LightGBM...
+2025-01-03/14:06:36		Error finding best params for LightGBM: cpu_count() got an unexpected keyword argument 'only_physical_cores'
+2025-01-03/14:06:36		Error in get_best_model: cpu_count() got an unexpected keyword argument 'only_physical_cores'
+2025-01-03/14:06:36		Unsuccessful End of Training
+2025-01-03/14:09:46		Start of Training
+2025-01-03/14:09:46		Entered the get_data method of the Data_Getter class
+2025-01-03/14:09:47		Data Load Successful.Exited the get_data method of the Data_Getter class
+2025-01-03/14:09:47		Entered the is_null_present method of the Preprocessor class
+2025-01-03/14:09:47		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2025-01-03/14:09:47		Entered the separate_label_feature method of the Preprocessor class
+2025-01-03/14:09:47		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2025-01-03/14:09:47		Entered the elbow_plot method of the KMeansClustering class
+2025-01-03/14:11:53		The optimum number of clusters is: 3 . Exited the elbow_plot method of the KMeansClustering class
+2025-01-03/14:11:53		Entered the create_clusters method of the KMeansClustering class
+2025-01-03/14:12:00		Entered the save_model method of the File_Operation class
+2025-01-03/14:12:00		Model File KMeans saved. Exited the save_model method of the Model_Finder class
+2025-01-03/14:12:00		succesfully created 3clusters. Exited the create_clusters method of the KMeansClustering class
+2025-01-03/14:12:00		Training GradientBoostingRegressor model...
+2025-01-03/14:12:00		Finding best params for GradientBoostingRegressor...
+2025-01-03/21:04:33		Best parameters for GradientBoostingRegressor: {'learning_rate': 0.2, 'max_depth': 10, 'n_estimators': 200, 'subsample': 0.8}
+2025-01-03/21:04:35		GradientBoostingRegressor R2 Score: 0.9939
+2025-01-03/21:04:35		GradientBoostingRegressor Mean Squared Error: 0.0454
+2025-01-03/21:04:35		Entered the save_model method of the File_Operation class
+2025-01-03/21:04:35		Model File GradientBoostingRegressor2 saved. Exited the save_model method of the Model_Finder class
+2025-01-03/21:04:35		Training GradientBoostingRegressor model...
+2025-01-03/21:04:35		Finding best params for GradientBoostingRegressor...
+2025-01-04/00:46:22		Best parameters for GradientBoostingRegressor: {'learning_rate': 0.2, 'max_depth': 10, 'n_estimators': 200, 'subsample': 1.0}
+2025-01-04/00:46:25		GradientBoostingRegressor R2 Score: 0.9998
+2025-01-04/00:46:25		GradientBoostingRegressor Mean Squared Error: 0.0003
+2025-01-04/00:46:25		Entered the save_model method of the File_Operation class
+2025-01-04/00:46:25		Model File GradientBoostingRegressor1 saved. Exited the save_model method of the Model_Finder class
+2025-01-04/00:46:25		Training GradientBoostingRegressor model...
+2025-01-04/00:46:25		Finding best params for GradientBoostingRegressor...
+2025-01-04/04:41:56		Best parameters for GradientBoostingRegressor: {'learning_rate': 0.2, 'max_depth': 10, 'n_estimators': 200, 'subsample': 0.8}
+2025-01-04/04:41:58		GradientBoostingRegressor R2 Score: 0.9972
+2025-01-04/04:41:58		GradientBoostingRegressor Mean Squared Error: 0.0155
+2025-01-04/04:41:58		Entered the save_model method of the File_Operation class
+2025-01-04/04:41:58		Model File GradientBoostingRegressor0 saved. Exited the save_model method of the Model_Finder class
+2025-01-04/04:41:58		Successful End of Training
