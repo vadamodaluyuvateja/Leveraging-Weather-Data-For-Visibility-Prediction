@@ -1,1 +1,7 @@
 streamlit
+streamlit
+folium
+streamlit-folium
+pandas
+numpy
+scikit-learn
