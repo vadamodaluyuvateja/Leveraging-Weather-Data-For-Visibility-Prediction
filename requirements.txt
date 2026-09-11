@@ -1,7 +1,9 @@
 streamlit
-streamlit
 folium
 streamlit-folium
+geopy
 pandas
 numpy
 scikit-learn
+xgboost
+requests
