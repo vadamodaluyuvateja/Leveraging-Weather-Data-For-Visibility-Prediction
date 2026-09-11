@@ -1,9 +1,11 @@
 streamlit
-folium
-streamlit-folium
-geopy
 pandas
 numpy
 scikit-learn
 xgboost
+matplotlib
+folium
+streamlit-folium
+geopy
+opencage
 requests
