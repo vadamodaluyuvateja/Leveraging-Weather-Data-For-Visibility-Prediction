@@ -4,8 +4,10 @@ numpy
 scikit-learn
 xgboost
 matplotlib
+kneed
 folium
 streamlit-folium
 geopy
 opencage
 requests
+joblib
